@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">WeatherForecast</string>
-    <string name="vitri">Vị trí: Hà Nội</string>
-    <string name="ngay">Ngày: 00/00/00</string>
-    <string name="temprature">Nhiệt độ</string>
+    <string name="location">Vị trí: Hà Nội</string>
+    <string name="date">Ngày: 00/00/0000</string>
+    <string name="temperature">Nhiệt độ</string>
     <string name="daily_forecast">Các ngày sắp tới</string>
-    <string name="Day">Monday</string>
+    <string name="Day">00/00/0000</string>
+    <string name="temp">nhietdo</string>
+    <string name="wind">0km/h</string>
+    <string name="humidity">0%</string>
+    <string name="cloud">25%</string>
+    <string name="temp_number">17C</string>
 </resources>

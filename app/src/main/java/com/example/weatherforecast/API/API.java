@@ -30,6 +30,7 @@ public class API {
     public static final String WIND_SPEED = "wind_speed";
     public static final String CLOUDS = "clouds";
     private static final String DATE = "dt";
+    private static final String DAY = "day";
     private static final String DAILY = "daily";
     public static final String API_KEY = "ca8c2c7970a09dc296d9b3cfc4d06940";
     private final MutableLiveData<List<Weather>> listWeather = new MutableLiveData<>();
@@ -77,7 +78,7 @@ public class API {
         JSONObject weatherJSON = weatherJsonArray.getJSONObject(0);
         JSONObject tempJSON = response.getJSONObject(API.TEMPERATURE);
         String icon = weatherJSON.getString(API.ICON);
-        String temperature = tempJSON.getString("day");
+        String temperature = tempJSON.getString(API.DAY);
         String humidity = response.getString(API.HUMIDITY);
         String dateJson = response.getString(API.DATE);
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");

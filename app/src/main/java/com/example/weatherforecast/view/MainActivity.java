@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
         textViewTemperature.setText(weather.getTemperature() + "°C");
         textViewDate.setText("Ngày: " + weather.getDate());
         if (weather.isDay()){
-            layoutContainer.setBackgroundResource(R.drawable.background_light);
+            layoutContainer.setBackgroundResource(R.drawable.background_day);
         }
         else {
-            layoutContainer.setBackgroundResource(R.drawable.background_dark);
+            layoutContainer.setBackgroundResource(R.drawable.background_night);
         }
     }
 

@@ -7,7 +7,7 @@
     tools:context=".view.MainActivity"
     android:padding="5dp"
     android:id="@+id/container"
-    android:background="@drawable/background_dark">
+    android:background="@drawable/background_night">
 
 
     <LinearLayout

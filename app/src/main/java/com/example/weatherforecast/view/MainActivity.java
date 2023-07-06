@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.weatherforecast.adapter.WeatherAdapter;
-import com.example.weatherforecast.API.API;
+import com.example.weatherforecast.api.API;
 import com.example.weatherforecast.R;
 import com.example.weatherforecast.model.Weather;
 
